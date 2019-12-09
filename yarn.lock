@@ -4865,6 +4865,11 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+folktale@^2.0.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/folktale/-/folktale-2.3.2.tgz#38231b039e5ef36989920cbf805bf6b227bf4fd4"
+  integrity sha512-+8GbtQBwEqutP0v3uajDDoN64K2ehmHd0cjlghhxh0WpcfPzAIjPA03e1VvHlxL02FVGR0A6lwXsNQKn3H1RNQ==
+
 follow-redirects@1.5.10, follow-redirects@^1.0.0:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
@@ -5089,6 +5094,15 @@ gatsby-page-utils@^0.0.32:
     glob "^7.1.6"
     lodash "^4.17.15"
     micromatch "^3.1.10"
+
+gatsby-plugin-i18n@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-i18n/-/gatsby-plugin-i18n-1.0.1.tgz#573fb98b85654c29e0cda50740037061fa38e694"
+  integrity sha512-6Cucb15sLQp9cTVgmRC34MeWVJu0a09G7LRrCNV87PgMlbS5iVUX00TwDnIUB0b+f6RUq3z5+V6/sIBIvsz8/Q==
+  dependencies:
+    folktale "^2.0.1"
+    graphql "^0.11.7"
+    ptz-i18n "^1.0.0"
 
 gatsby-plugin-manifest@^2.2.30:
   version "2.2.30"
@@ -5705,6 +5719,13 @@ graphql-type-json@^0.2.4:
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.2.4.tgz#545af27903e40c061edd30840a272ea0a49992f9"
   integrity sha512-/tq02ayMQjrG4oDFDRLLrPk0KvJXue0nVXoItBe7uAdbNXjQUu+HYCBdAmPLQoseVzUKKMzrhq2P/sfI76ON6w==
 
+graphql@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.11.7.tgz#e5abaa9cb7b7cccb84e9f0836bf4370d268750c6"
+  integrity sha512-x7uDjyz8Jx+QPbpCFCMQ8lltnQa4p4vSYHx6ADe8rVYRTdsyhCJbvSty5DAsLVmU6cGakl+r8HQYolKHxk/tiw==
+  dependencies:
+    iterall "1.1.3"
+
 graphql@^14.5.8:
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
@@ -5716,6 +5737,11 @@ gud@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
   integrity sha512-zGEOVKFM5sVPPrYs7J5/hYEw2Pof8KCyOwyhG8sAF26mCAeUFAcYPu1mwB7hhpIP29zOIBaDqwuHdLp0jvZXjw==
+
+gumshoejs@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/gumshoejs/-/gumshoejs-5.1.2.tgz#82748afe83f3b76cbaef029e58322262f853b7d2"
+  integrity sha512-wIRdZGTNkWMP8dY3po8mtNYmCfiSva41LxXIEek2yEHceETpxRmO7DfW7aUbHsuucC9z2oDPu3alN3+00FUqlw==
 
 gzip-size@3.0.0:
   version "3.0.0"
@@ -6836,6 +6862,11 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
+
+iterall@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
+  integrity sha512-Cu/kb+4HiNSejAPhSaN1VukdNTTi/r4/e+yykqjlG/IW+1gZH5b4+Bq3whDX4tvbYugta3r8KTMUiqT3fIGxuQ==
 
 iterall@^1.2.2:
   version "1.2.2"
@@ -9313,6 +9344,14 @@ psl@^1.1.24:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.4.0.tgz#5dd26156cdb69fa1fdb8ab1991667d3f80ced7c2"
   integrity sha512-HZzqCGPecFLyoRj5HLfuDSKYTJkAfB5thKBIkRHtGjWwY7p1dAyveIbXIq4tO0KYfDF2tHqPUgY9SDnGm00uFw==
 
+ptz-i18n@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ptz-i18n/-/ptz-i18n-1.0.0.tgz#803df4d0f5ce9a7732f5d1d805ea624c6a1f5e8c"
+  integrity sha512-3buuv2T+Qo2tyo3A1pSx2arxheW0vd+tPGizmWdvr9RWJKfQlrNw8GtnYXdjChUKN0s2UO/JJkWswOTRYBi/OQ==
+  dependencies:
+    folktale "^2.0.1"
+    ramda "^0.24.1"
+
 public-encrypt@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/public-encrypt/-/public-encrypt-4.0.3.tgz#4fcc9d77a07e48ba7527e7cbe0de33d0701331e0"
@@ -9388,7 +9427,7 @@ query-string@^4.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^5.0.1:
+query-string@^5.0.1, query-string@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
   integrity sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw==
@@ -9411,6 +9450,11 @@ querystringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+
+ramda@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.24.1.tgz#c3b7755197f35b8dc3502228262c4c91ddb6b857"
+  integrity sha1-w7d1UZfzW43DUCIoJixMkd22uFc=
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -9535,6 +9579,13 @@ react-hot-loader@^4.12.18:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
+react-instagram-embed@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-instagram-embed/-/react-instagram-embed-1.5.0.tgz#88b0dc6d7baa50e8d703aca01b79cd981beff5b2"
+  integrity sha512-8HGBHjK4k6xJjActGLll22TCE8G9GI6aIlb7r8UJB9MYMnJpk15SuAQOoAeujb4pkOQGlWgfU3TW7R+97dp8mg==
+  dependencies:
+    query-string "^5.1.1"
+
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
@@ -9562,6 +9613,11 @@ react-side-effect@^1.1.0:
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
+
+react-tweet-embed@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-tweet-embed/-/react-tweet-embed-1.2.2.tgz#b518510a6e6ef17609f9c9b16bc4775624730d8a"
+  integrity sha512-Y932BlSaJsDUsKDucC2opzzd+uhc0YNhrlTa/4Beb2be1od+AjLGo6Fhuo2wPT0D+fF4VTXOyoZyA8Yc88RdYA==
 
 react@^16.12.0:
   version "16.12.0"
@@ -10368,6 +10424,11 @@ slugify@^1.3.6:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.3.6.tgz#ba5fd6159b570fe4811d02ea9b1f4906677638c3"
   integrity sha512-wA9XS475ZmGNlEnYYLPReSfuz/c3VQsEMoU43mi6OnKMCdbnFXd4/Yg7J0lBv8jkPolacMpOrWEaoYxuE1+hoQ==
+
+smooth-scroll@^16.1.0:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/smooth-scroll/-/smooth-scroll-16.1.0.tgz#c811c63db67215d30847745ba0732feb3291947f"
+  integrity sha512-V5b8ekIekZ3xJ6f0sPsLgEbN5YT8gX0Q6yNjZXTKgqjH9dBGadZ0P50fhP0rLRBGifc44qfI3rnWNM+lebhJag==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
