@@ -229,7 +229,7 @@ class IndexPage extends React.Component {
                   {" "}
                   <div className="textwidget">
                     <div className="col-md-12 footer-close">
-                      © 2019 Tiny Tin Box Ltd. |{" "}
+                      © 2021 Tiny Tin Box Ltd. |{" "}
                       <Link to="/de/datenschutz">Datenschutz</Link>
                     </div>
                   </div>

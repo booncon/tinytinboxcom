@@ -306,8 +306,7 @@ class IndexPage extends React.Component {
                           Animationen und schönes Design.
                         </p>
                         <p>
-                          Und wir lieben Lyrik. Ob Tiny Rhyme Box oder
-                          erzählendes Bilderbuch &#8211; das Spiel mit Versmaß,
+                          Und wir lieben Lyrik. Das Spiel mit Versmaß,
                           Reim und Sprachbildern zieht sich wie ein roter Faden
                           durch unsere Arbeit und ermöglicht Kindern einen
                           spielerischen Zugang zur Welt der Wörter.
@@ -376,7 +375,7 @@ class IndexPage extends React.Component {
                           ></img>
 
                           <h3>Marion Tappeiner</h3>
-                          <p>CEO</p>
+                          <p>Autorin</p>
 
                           <p>
                             <a href="mailto:marion.tappeiner@tinytinbox.com">
@@ -461,7 +460,7 @@ class IndexPage extends React.Component {
                         {" "}
                         <div className="textwidget">
                           <div className="col-md-12 footer-close">
-                            © 2019 Tiny Tin Box Ltd. |{" "}
+                            © 2021 Tiny Tin Box Ltd. |{" "}
                             <Link to="/de/datenschutz">Datenschutz</Link>
                           </div>
                         </div>
